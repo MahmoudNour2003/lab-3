@@ -1,0 +1,4 @@
+let tips=["Always declare variables with let, const, or var.","Use === instead of == for comparison.","Use template literals for string interpolation.","Keep your code DRY (Don't Repeat Yourself).","Use arrow functions for concise function expressions.","Comment your code for better readability.","Use array methods like map, filter, and reduce.","Avoid using global variables.","Use try-catch for error handling.","Keep your functions small and focused."];
+let randomIndex=Math.floor(Math.random()*tips.length);
+document.write("<h2>Tip of the day:</h2>");
+document.write("<p>"+tips[randomIndex]+"</p>");
